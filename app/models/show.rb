@@ -5,6 +5,7 @@ def self.highest_rating
 end
 
 def self.most_popular_show
+  self.where("rating = 7", self.highest_rating).first
 end
 
 def self.lowest_rating
