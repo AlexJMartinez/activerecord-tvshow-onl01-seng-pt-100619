@@ -1,2 +1,2 @@
-class Shows
+class Shows < 
 end
